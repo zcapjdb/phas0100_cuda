@@ -18,7 +18,7 @@ inline void cudaErrorCheck(cudaError_t err, const char* file, int line)
 // Array size
 // HANDSON 2.1 Change the array size to a static __constant__ int
 #define ARRAY_SIZE 65536
-stati __constant__ int deviceArraySize;
+static __constant__ int deviceArraySize;
 
 // CUDA threads per block
 #define nThreads 128
